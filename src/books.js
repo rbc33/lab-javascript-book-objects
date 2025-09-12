@@ -88,7 +88,9 @@ function getBookDetails(book) {
 
 // Iteration 3 | Delete Language
 // Your code here:
-
+for (let books of booksArray) {
+	delete books.details.language
+}
 // Iteration 4 | Estimated Reading Time
 // Your code here:
 
