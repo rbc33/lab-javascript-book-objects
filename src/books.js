@@ -81,8 +81,9 @@ const booksArray = [
 ]
 
 // Iteration 2 | Book Details
-function getBookDetails() {
+function getBookDetails(book) {
 	// Your code here:
+	return `${book.title} - ${book.author} - ${book.pages} pages`
 }
 
 // Iteration 3 | Delete Language
