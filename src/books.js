@@ -143,6 +143,11 @@ function booksByAuthor(dictionary) {
 booksByAuthor(dictionary)
 
 // Bonus: Iteration 6 | Average Page Count
-function averagePageCount() {
+function averagePageCount(books) {
 	// Your code here:
+	let totalPages = 0
+	books.map((book) => {
+		totalPages += book.pages
+	})
+	return totalPages / books.length
 }
