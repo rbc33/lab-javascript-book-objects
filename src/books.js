@@ -93,6 +93,12 @@ for (let books of booksArray) {
 }
 // Iteration 4 | Estimated Reading Time
 // Your code here:
+for (let book of booksArray) {
+	let readingTime = Math.ceil((book.pages * 500) / 90)
+	book.readingTime = readingTime
+
+	console.log('readingTime: ', readingTime, '\nBook: ', book)
+}
 
 // Bonus: Iteration 5 | Books Dictionary
 
