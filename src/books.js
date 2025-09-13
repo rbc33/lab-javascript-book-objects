@@ -96,8 +96,6 @@ for (let books of booksArray) {
 for (let book of booksArray) {
 	let readingTime = Math.ceil((book.pages * 500) / 90)
 	book.readingTime = readingTime
-
-	// console.log('readingTime: ', readingTime, '\nBook: ', book)
 }
 
 // Bonus: Iteration 5 | Books Dictionary
@@ -124,8 +122,8 @@ const dictionary = {
 }
 
 function booksByAuthor(dictionary) {
-	// https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
 	// Your code here:
+	// https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
 	let newArr = []
 	for (let [key, value] of Object.entries(dictionary)) {
 		console.log(key, value)
