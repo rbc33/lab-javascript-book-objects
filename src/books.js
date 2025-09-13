@@ -126,7 +126,7 @@ function booksByAuthor(dictionary) {
 	// https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
 	let newArr = []
 	for (let [key, value] of Object.entries(dictionary)) {
-		console.log(key, value)
+		// console.log(key, value)
 
 		for (let book of value) {
 			newArr.push({
